@@ -7,3 +7,7 @@
 2. Checking to see if a function is returning the right value is something fairly specific and individual to the code. A unit test would be more appropriate for this.
 3. No I wouldn't. Messaging is a pretty extensive feature and thus would benefit from more comprehensive testing. Unit testing is for more small-scale aspects of the code. Something like messaging is not going to be in a small encapsulated part of the code (which unit testing can handle) because it's fairly complex.
 4. Yes I would. Max message length is actually a small bit of the code that is encapsulated. Something like checking to see if a string is less than 81 character's is very specific (and not that complicated) and unit testing can directly target that aspect of the code. 
+
+### Other Notes
+
+For the full output, refer to the screenshots labeled one and two. Otherwise, refer to the `testResultsScreenshot.png` file that just shows the end result of the 31 tests passing.
